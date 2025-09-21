@@ -39,7 +39,7 @@ const Filter:React.FC<FilterProps> = ({
             <h3 className="text-lg font-semibold"> 
             {name}
             </h3>
-            <hr className="my-4"/>
+            <hr className="my-4" style={{borderColor: "oklch(0.929 0.013 255.508)"}}/>
             <div className="flex flex-wrap gap-2">
             {data.map((filter)=>(
                 <div key={filter.id}className="flex items-center">
