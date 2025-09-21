@@ -34,7 +34,7 @@ const Info:React.FC<InfoProps> =({
                 </div>
             <div className="mt-10 flex items-center gap-x-3">
                 <Button className="flex items-center gap-x-2">
-                    add to category
+                    Add to Cart
                     <ShoppingCart/>
                 </Button>
             </div>
